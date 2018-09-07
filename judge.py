@@ -103,6 +103,11 @@ if __name__ == "__main__":
 		sys.stdout = open(choice + "_result.txt", "w")
 		all_chars = get_all(url)
 		total = 0
+		print("For each table:")
+		print("\tThe chance column is the chance that you get exactly k stats.")
+		print("\tThe cumulative column is the chance that you get at most k stats.")
+		print("\tThe reverse column is the chance that you get at least k stats.")
+
 		for char in all_chars:
 			result, accu, reverse, expected = ans(all_chars, char, True)
 			total += expected
@@ -110,6 +115,7 @@ if __name__ == "__main__":
 
 		sys.stdout = open(choice + "_result_summary.txt", "w")
 		sorted_dict = sorted(avg_dict.items(), key=lambda x:x[1], reverse=True)
+		print("This file shows the average amount of stats leveled up per character.")
 		print("Name             Average")
 		for x in sorted_dict:
 			print("{:13}     {:6.2f}".format(x[0], x[1]))

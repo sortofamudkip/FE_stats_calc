@@ -1,3 +1,4 @@
+This file shows the average amount of stats leveled up per character.
 Name             Average
 Myrrh               5.00
 Lyon                3.75

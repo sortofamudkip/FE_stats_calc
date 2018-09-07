@@ -1,3 +1,7 @@
+For each table:
+	The chance column is the chance that you get exactly k stats.
+	The cumulative column is the chance that you get at most k stats.
+	The reverse column is the chance that you get at least k stats.
 Printing stats for Eliwood:
  #    chance   cumulative      reverse
  0:    0.83%        0.83%      100.00%
