@@ -1,6 +1,10 @@
 # FE_stats_calc
 Calculates the chance that one would get a certain amount of stats one could in a FE level up.
 
+Growth rates are taken directly off SerenesForest.
+
+Read the introduction and formulas here: https://hackmd.io/IdEZ33G3TnSr9lcRX2ZEtg
+
 # Dependdencies
 
 * Python 3
