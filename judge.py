@@ -47,14 +47,17 @@ def F(k: int, stats: list) -> float:
 
 ## for data analysis
 def get_info_list(all_stats: dict, name: str):
-	return all_stats[name]
+	return [int(x) for x in all_stats[name]]
 
-def ans(all_stats: dict, name: str, print_info=True):
-	_stats = get_info_list(all_stats, name)
-
+def to_percentage(_stats: list):
 	stats = [int(x)/100.0 for x in _stats]
 	for i in range(len(stats)):
 		if stats[i] > 1.0: stats[i] = 1.0
+	return stats
+
+def ans(all_stats: dict, name: str, print_info=True):
+	_stats = get_info_list(all_stats, name)
+	stats = to_percentage(_stats)
 	results = [F(i, stats) for i in range(len(stats)+1)]
 	accu = list(accumulate(results))
 	reverse = list(accumulate(results[::-1]))[::-1]
@@ -110,6 +113,19 @@ if __name__ == "__main__":
 
 		for char in all_chars:
 			result, accu, reverse, expected = ans(all_chars, char, True)
+			
+			from monte_carlo import passes_monte_carlo
+			temp_stdout = sys.stdout
+			sys.stdout = saved_stdout
+			print("---Character: {}---".format(char))
+			passed_test = passes_monte_carlo(get_info_list(all_chars, char), result, 1521, True)
+			print("{}: {} Monte Carlo test with 95% confidence (< 14.07 to pass)".format(char,
+				"Passed" if passed_test else "Failed"
+				))
+			if not passed_test: assert 0
+			print()
+			sys.stdout = temp_stdout
+
 			total += expected
 			avg_dict[char] = expected
 
@@ -121,6 +137,8 @@ if __name__ == "__main__":
 			print("{:13}     {:6.2f}".format(x[0], x[1]))
 		print("Average over all characters: {:.2f}".format(total/len(all_chars)))
 		sys.stdout = saved_stdout
+
+
 
 	# print("Input the name of the character you'd like to retrieve info for:")
 	# ans(all_chars, input())
