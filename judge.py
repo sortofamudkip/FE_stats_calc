@@ -15,7 +15,7 @@ def is_good_response(resp):
             and content_type is not None 
             and content_type.find('html') > -1)
 
-def get_info_web(name):
+def get_info_web(name): # not used
 	soup = BeautifulSoup(simple_get("https://serenesforest.net/blazing-sword/characters/growth-rates/"), features="html.parser")
 	tag = soup.find("td", string=name)
 	if tag is None:
@@ -65,7 +65,7 @@ def ans(all_stats: dict, name: str, print_info=True):
 				100*accu[i],
 				100*reverse[i]))
 		print("{} is expected to level up {:.2f} stats on average".format(name, expected))
-	return expected
+	return results, accu, reverse, expected
 
 
 ## For item selection
@@ -76,18 +76,34 @@ def get_all(url: str) -> dict:
 	characters = {}
 	for y in tag:
 		y = [z for z in y if z != "\n"]
-		if y[0].string != "Name": characters[y[0].string] = [z.string for z in y][1:]
+		if y[0].string != "Name" and y[0].string != "Character": 
+			characters[y[0].string] = [z.string for z in y][1:]
 	return characters 
 
+## Writing to file
+
 if __name__ == "__main__":
+	choice_dict = {
+	"FE6": "https://serenesforest.net/binding-blade/characters/growth-rates/", 
+	"FE7": "https://serenesforest.net/blazing-sword/characters/growth-rates/", 
+	"FE8": "https://serenesforest.net/the-sacred-stones/characters/growth-rates/"}
+	choice = input("What character is your game in? ({})\n".format(" ".join(choice_dict.keys())))
+	if choice in choice_dict: url = choice_dict[choice]
+	else: print("Invalid name."); exit(0)
 
-
-	all_chars = get_all("https://serenesforest.net/blazing-sword/characters/growth-rates/")
-	
+	import sys
+	saved_stdout = sys.stdout
+	sys.stdout = open(choice + "_result.txt", "w")
+	all_chars = get_all(url)
 	total = 0
 	for char in all_chars:
-		total += ans(all_chars, char, False)
+		result, accu, reverse, expected = ans(all_chars, char, True)
+		total += expected
+
+	print("Average over all characters: {}".format(total/len(all_chars)))
+	sys.stdout = saved_stdout
 
 	print("Input the name of the character you'd like to retrieve info for:")
 	ans(all_chars, input())
-	print("Average: {}".format(total/len(all_chars)))
+	print("Average over all characters: {}".format(total/len(all_chars)))
+
