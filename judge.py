@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 		sys.stdout = open(choice + "_result_summary.txt", "w")
 		sorted_dict = sorted(avg_dict.items(), key=lambda x:x[1], reverse=True)
-		print("Name     Average")
+		print("Name             Average")
 		for x in sorted_dict:
 			print("{:13}     {:6.2f}".format(x[0], x[1]))
 		print("Average over all characters: {:.2f}".format(total/len(all_chars)))

@@ -1,4 +1,4 @@
-Name     Average
+Name             Average
 Karel               7.00
 Fa                  5.20
 Chad                3.65

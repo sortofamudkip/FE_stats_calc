@@ -1,4 +1,4 @@
-Name     Average
+Name             Average
 Myrrh               5.00
 Lyon                3.75
 Tethys              3.55

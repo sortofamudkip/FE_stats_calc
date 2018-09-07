@@ -1,4 +1,4 @@
-Name     Average
+Name             Average
 Merlinus            4.25
 Nils/Ninian         3.45
 Lyn                 3.35
