@@ -1,5 +1,5 @@
 # FE_stats_calc
-Calculates the chance that one would get a certain amount of stats one could in a FE level up.
+Calculates the chance that a character in FE gets a certain amount of stats one level up.
 
 The results are written into the `.txt` files.
 
