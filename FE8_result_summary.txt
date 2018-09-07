@@ -1,0 +1,48 @@
+Name     Average
+Myrrh               5.00
+Lyon                3.75
+Tethys              3.55
+Eirika              3.50
+Ephraim             3.45
+Seth                3.25
+Orson               3.20
+Tana                3.20
+Syrene              3.20
+Glen                3.20
+L’Arachel           3.15
+Colm                3.10
+Marisa              3.10
+Neimi               3.10
+Fado                3.05
+Natasha             3.05
+Gilliam             3.05
+Duessel             3.05
+Forde               3.00
+Vanessa             3.00
+Cormag              3.00
+Franz               2.95
+Joshua              2.95
+Gerik               2.95
+Caellach            2.95
+Ismaire             2.95
+Dozla               2.95
+Selena              2.95
+Riev                2.90
+Hayden              2.90
+Innes               2.90
+Artur               2.90
+Lute                2.85
+Kyle                2.85
+Garcia              2.85
+Valter              2.80
+Ewan                2.75
+Rennac              2.75
+Moulder             2.70
+Ross                2.70
+Knoll               2.70
+Amelia              2.70
+Saleh               2.50
+Knoll’s Phantom       1.95
+Lyon’s Phantom       1.95
+Ewan’s Phantom       1.70
+Average over all characters: 2.98

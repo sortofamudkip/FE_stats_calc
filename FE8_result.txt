@@ -8,7 +8,8 @@ Printing stats for Eirika:
  5:   16.12%       94.78%       21.34%
  6:    4.68%       99.46%        5.22%
  7:    0.54%      100.00%        0.54%
-Eirika is expected to level up 3.46 stats on average
+Eirika is expected to level up 3.50 stats on average
+
 Printing stats for Seth:
  #    chance   cumulative      reverse
  0:    0.48%        0.48%      100.00%
@@ -19,7 +20,8 @@ Printing stats for Seth:
  5:   11.92%       96.89%       15.04%
  6:    2.84%       99.73%        3.11%
  7:    0.27%      100.00%        0.27%
-Seth is expected to level up 3.23 stats on average
+Seth is expected to level up 3.25 stats on average
+
 Printing stats for Franz:
  #    chance   cumulative      reverse
  0:    1.30%        1.30%      100.00%
@@ -30,7 +32,8 @@ Printing stats for Franz:
  5:    8.30%       98.24%       10.06%
  6:    1.63%       99.87%        1.76%
  7:    0.13%      100.00%        0.13%
-Franz is expected to level up 2.94 stats on average
+Franz is expected to level up 2.95 stats on average
+
 Printing stats for Gilliam:
  #    chance   cumulative      reverse
  0:    0.63%        0.63%      100.00%
@@ -41,7 +44,8 @@ Printing stats for Gilliam:
  5:    8.99%       98.08%       10.91%
  6:    1.78%       99.86%        1.92%
  7:    0.14%      100.00%        0.14%
-Gilliam is expected to level up 3.04 stats on average
+Gilliam is expected to level up 3.05 stats on average
+
 Printing stats for Moulder:
  #    chance   cumulative      reverse
  0:    2.43%        2.43%      100.00%
@@ -53,6 +57,7 @@ Printing stats for Moulder:
  6:    1.01%       99.93%        1.08%
  7:    0.07%      100.00%        0.07%
 Moulder is expected to level up 2.70 stats on average
+
 Printing stats for Vanessa:
  #    chance   cumulative      reverse
  0:    1.64%        1.64%      100.00%
@@ -63,7 +68,8 @@ Printing stats for Vanessa:
  5:    9.38%       97.80%       11.58%
  6:    2.02%       99.83%        2.20%
  7:    0.17%      100.00%        0.17%
-Vanessa is expected to level up 2.99 stats on average
+Vanessa is expected to level up 3.00 stats on average
+
 Printing stats for Ross:
  #    chance   cumulative      reverse
  0:    2.46%        2.46%      100.00%
@@ -74,7 +80,8 @@ Printing stats for Ross:
  5:    5.95%       98.89%        7.07%
  6:    1.04%       99.93%        1.11%
  7:    0.07%      100.00%        0.07%
-Ross is expected to level up 2.69 stats on average
+Ross is expected to level up 2.70 stats on average
+
 Printing stats for Garcia:
  #    chance   cumulative      reverse
  0:    1.29%        1.29%      100.00%
@@ -86,6 +93,7 @@ Printing stats for Garcia:
  6:    1.03%       99.94%        1.09%
  7:    0.06%      100.00%        0.06%
 Garcia is expected to level up 2.85 stats on average
+
 Printing stats for Neimi:
  #    chance   cumulative      reverse
  0:    1.37%        1.37%      100.00%
@@ -96,7 +104,8 @@ Printing stats for Neimi:
  5:   10.66%       97.42%       13.24%
  6:    2.38%       99.81%        2.58%
  7:    0.19%      100.00%        0.19%
-Neimi is expected to level up 3.09 stats on average
+Neimi is expected to level up 3.10 stats on average
+
 Printing stats for Colm:
  #    chance   cumulative      reverse
  0:    1.04%        1.04%      100.00%
@@ -107,7 +116,8 @@ Printing stats for Colm:
  5:   10.08%       97.70%       12.38%
  6:    2.12%       99.82%        2.30%
  7:    0.18%      100.00%        0.18%
-Colm is expected to level up 3.09 stats on average
+Colm is expected to level up 3.10 stats on average
+
 Printing stats for Artur:
  #    chance   cumulative      reverse
  0:    1.94%        1.94%      100.00%
@@ -118,7 +128,8 @@ Printing stats for Artur:
  5:    8.16%       98.32%        9.84%
  6:    1.57%       99.89%        1.68%
  7:    0.11%      100.00%        0.11%
-Artur is expected to level up 2.89 stats on average
+Artur is expected to level up 2.90 stats on average
+
 Printing stats for Lute:
  #    chance   cumulative      reverse
  0:    2.08%        2.08%      100.00%
@@ -129,7 +140,8 @@ Printing stats for Lute:
  5:    7.64%       98.43%        9.20%
  6:    1.46%       99.89%        1.57%
  7:    0.11%      100.00%        0.11%
-Lute is expected to level up 2.84 stats on average
+Lute is expected to level up 2.85 stats on average
+
 Printing stats for Natasha:
  #    chance   cumulative      reverse
  0:    1.38%        1.38%      100.00%
@@ -140,7 +152,8 @@ Printing stats for Natasha:
  5:    9.76%       97.87%       11.89%
  6:    1.98%       99.85%        2.13%
  7:    0.15%      100.00%        0.15%
-Natasha is expected to level up 3.04 stats on average
+Natasha is expected to level up 3.05 stats on average
+
 Printing stats for Joshua:
  #    chance   cumulative      reverse
  0:    1.18%        1.18%      100.00%
@@ -151,7 +164,8 @@ Printing stats for Joshua:
  5:    7.92%       98.47%        9.45%
  6:    1.43%       99.90%        1.53%
  7:    0.10%      100.00%        0.10%
-Joshua is expected to level up 2.94 stats on average
+Joshua is expected to level up 2.95 stats on average
+
 Printing stats for Ephraim:
  #    chance   cumulative      reverse
  0:    0.54%        0.54%      100.00%
@@ -162,7 +176,8 @@ Printing stats for Ephraim:
  5:   15.26%       95.25%       20.00%
  6:    4.27%       99.52%        4.75%
  7:    0.48%      100.00%        0.48%
-Ephraim is expected to level up 3.42 stats on average
+Ephraim is expected to level up 3.45 stats on average
+
 Printing stats for Forde:
  #    chance   cumulative      reverse
  0:    0.97%        0.97%      100.00%
@@ -173,7 +188,8 @@ Printing stats for Forde:
  5:    8.67%       98.16%       10.51%
  6:    1.71%       99.87%        1.84%
  7:    0.13%      100.00%        0.13%
-Forde is expected to level up 2.99 stats on average
+Forde is expected to level up 3.00 stats on average
+
 Printing stats for Kyle:
  #    chance   cumulative      reverse
  0:    0.86%        0.86%      100.00%
@@ -184,7 +200,8 @@ Printing stats for Kyle:
  5:    6.55%       98.84%        7.71%
  6:    1.09%       99.93%        1.16%
  7:    0.07%      100.00%        0.07%
-Kyle is expected to level up 2.84 stats on average
+Kyle is expected to level up 2.85 stats on average
+
 Printing stats for Tana:
  #    chance   cumulative      reverse
  0:    0.97%        0.97%      100.00%
@@ -195,7 +212,8 @@ Printing stats for Tana:
  5:   11.60%       97.16%       14.45%
  6:    2.62%       99.77%        2.84%
  7:    0.23%      100.00%        0.23%
-Tana is expected to level up 3.18 stats on average
+Tana is expected to level up 3.20 stats on average
+
 Printing stats for Amelia:
  #    chance   cumulative      reverse
  0:    2.78%        2.78%      100.00%
@@ -206,7 +224,8 @@ Printing stats for Amelia:
  5:    6.20%       98.83%        7.37%
  6:    1.10%       99.92%        1.17%
  7:    0.08%      100.00%        0.08%
-Amelia is expected to level up 2.69 stats on average
+Amelia is expected to level up 2.70 stats on average
+
 Printing stats for Innes:
  #    chance   cumulative      reverse
  0:    1.63%        1.63%      100.00%
@@ -217,7 +236,8 @@ Printing stats for Innes:
  5:    7.94%       98.33%        9.61%
  6:    1.55%       99.88%        1.67%
  7:    0.12%      100.00%        0.12%
-Innes is expected to level up 2.89 stats on average
+Innes is expected to level up 2.90 stats on average
+
 Printing stats for Gerik:
  #    chance   cumulative      reverse
  0:    0.79%        0.79%      100.00%
@@ -228,7 +248,8 @@ Printing stats for Gerik:
  5:    8.01%       98.30%        9.72%
  6:    1.58%       99.87%        1.70%
  7:    0.13%      100.00%        0.13%
-Gerik is expected to level up 2.94 stats on average
+Gerik is expected to level up 2.95 stats on average
+
 Printing stats for Tethys:
  #    chance   cumulative      reverse
  0:    0.13%        0.13%      100.00%
@@ -240,6 +261,7 @@ Printing stats for Tethys:
  6:    1.69%       99.95%        1.74%
  7:    0.05%      100.00%        0.05%
 Tethys is expected to level up 3.55 stats on average
+
 Printing stats for Marisa:
  #    chance   cumulative      reverse
  0:    1.00%        1.00%      100.00%
@@ -250,7 +272,8 @@ Printing stats for Marisa:
  5:    9.90%       97.94%       11.96%
  6:    1.92%       99.86%        2.06%
  7:    0.14%      100.00%        0.14%
-Marisa is expected to level up 3.09 stats on average
+Marisa is expected to level up 3.10 stats on average
+
 Printing stats for L’Arachel:
  #    chance   cumulative      reverse
  0:    1.24%        1.24%      100.00%
@@ -261,7 +284,8 @@ Printing stats for L’Arachel:
  5:   11.33%       97.14%       14.19%
  6:    2.64%       99.78%        2.86%
  7:    0.22%      100.00%        0.22%
-L’Arachel is expected to level up 3.13 stats on average
+L’Arachel is expected to level up 3.15 stats on average
+
 Printing stats for Dozla:
  #    chance   cumulative      reverse
  0:    1.07%        1.07%      100.00%
@@ -272,7 +296,8 @@ Printing stats for Dozla:
  5:    8.18%       98.23%        9.95%
  6:    1.63%       99.87%        1.77%
  7:    0.13%      100.00%        0.13%
-Dozla is expected to level up 2.94 stats on average
+Dozla is expected to level up 2.95 stats on average
+
 Printing stats for Saleh:
  #    chance   cumulative      reverse
  0:    4.30%        4.30%      100.00%
@@ -284,6 +309,7 @@ Printing stats for Saleh:
  6:    0.85%       99.94%        0.91%
  7:    0.06%      100.00%        0.06%
 Saleh is expected to level up 2.50 stats on average
+
 Printing stats for Ewan:
  #    chance   cumulative      reverse
  0:    2.73%        2.73%      100.00%
@@ -294,7 +320,8 @@ Printing stats for Ewan:
  5:    6.87%       98.61%        8.26%
  6:    1.30%       99.91%        1.39%
  7:    0.09%      100.00%        0.09%
-Ewan is expected to level up 2.74 stats on average
+Ewan is expected to level up 2.75 stats on average
+
 Printing stats for Cormag:
  #    chance   cumulative      reverse
  0:    0.92%        0.92%      100.00%
@@ -305,7 +332,8 @@ Printing stats for Cormag:
  5:    8.49%       98.32%       10.18%
  6:    1.57%       99.89%        1.68%
  7:    0.11%      100.00%        0.11%
-Cormag is expected to level up 2.99 stats on average
+Cormag is expected to level up 3.00 stats on average
+
 Printing stats for Rennac:
  #    chance   cumulative      reverse
  0:    2.27%        2.27%      100.00%
@@ -316,7 +344,8 @@ Printing stats for Rennac:
  5:    6.36%       98.79%        7.58%
  6:    1.13%       99.92%        1.21%
  7:    0.08%      100.00%        0.08%
-Rennac is expected to level up 2.74 stats on average
+Rennac is expected to level up 2.75 stats on average
+
 Printing stats for Duessel:
  #    chance   cumulative      reverse
  0:    0.87%        0.87%      100.00%
@@ -327,7 +356,8 @@ Printing stats for Duessel:
  5:    9.24%       97.97%       11.27%
  6:    1.88%       99.85%        2.03%
  7:    0.15%      100.00%        0.15%
-Duessel is expected to level up 3.04 stats on average
+Duessel is expected to level up 3.05 stats on average
+
 Printing stats for Knoll:
  #    chance   cumulative      reverse
  0:    2.32%        2.32%      100.00%
@@ -339,17 +369,19 @@ Printing stats for Knoll:
  6:    0.84%       99.96%        0.88%
  7:    0.04%      100.00%        0.04%
 Knoll is expected to level up 2.70 stats on average
+
 Printing stats for Myrrh:
  #    chance   cumulative      reverse
- 0:    0.04%        0.04%       70.00%
- 1:    0.43%        0.46%       69.96%
- 2:   -0.29%        0.18%       69.54%
- 3:   -9.56%       -9.38%       69.82%
- 4:   -0.86%      -10.25%       79.38%
- 5:   40.92%       30.67%       80.25%
- 6:   32.62%       63.29%       39.33%
- 7:    6.71%       70.00%        6.71%
-Myrrh is expected to level up 3.68 stats on average
+ 0:    0.00%        0.00%      100.00%
+ 1:    0.00%        0.00%      100.00%
+ 2:    0.26%        0.26%      100.00%
+ 3:    4.47%        4.73%       99.74%
+ 4:   23.82%       28.55%       95.27%
+ 5:   42.40%       70.94%       71.45%
+ 6:   24.58%       95.52%       29.06%
+ 7:    4.48%      100.00%        4.48%
+Myrrh is expected to level up 5.00 stats on average
+
 Printing stats for Syrene:
  #    chance   cumulative      reverse
  0:    1.01%        1.01%      100.00%
@@ -360,7 +392,8 @@ Printing stats for Syrene:
  5:   11.73%       96.99%       14.74%
  6:    2.75%       99.75%        3.01%
  7:    0.25%      100.00%        0.25%
-Syrene is expected to level up 3.18 stats on average
+Syrene is expected to level up 3.20 stats on average
+
 Printing stats for Caellach:
  #    chance   cumulative      reverse
  0:    1.02%        1.02%      100.00%
@@ -371,7 +404,8 @@ Printing stats for Caellach:
  5:    7.91%       98.46%        9.46%
  6:    1.44%       99.90%        1.54%
  7:    0.10%      100.00%        0.10%
-Caellach is expected to level up 2.94 stats on average
+Caellach is expected to level up 2.95 stats on average
+
 Printing stats for Orson:
  #    chance   cumulative      reverse
  0:    0.86%        0.86%      100.00%
@@ -382,7 +416,8 @@ Printing stats for Orson:
  5:   11.58%       96.97%       14.61%
  6:    2.77%       99.73%        3.03%
  7:    0.27%      100.00%        0.27%
-Orson is expected to level up 3.18 stats on average
+Orson is expected to level up 3.20 stats on average
+
 Printing stats for Riev:
  #    chance   cumulative      reverse
  0:    1.54%        1.54%      100.00%
@@ -393,7 +428,8 @@ Printing stats for Riev:
  5:    7.69%       98.55%        9.15%
  6:    1.36%       99.91%        1.45%
  7:    0.09%      100.00%        0.09%
-Riev is expected to level up 2.89 stats on average
+Riev is expected to level up 2.90 stats on average
+
 Printing stats for Ismaire:
  #    chance   cumulative      reverse
  0:    1.32%        1.32%      100.00%
@@ -404,7 +440,8 @@ Printing stats for Ismaire:
  5:    8.06%       98.39%        9.67%
  6:    1.50%       99.89%        1.61%
  7:    0.11%      100.00%        0.11%
-Ismaire is expected to level up 2.94 stats on average
+Ismaire is expected to level up 2.95 stats on average
+
 Printing stats for Selena:
  #    chance   cumulative      reverse
  0:    1.02%        1.02%      100.00%
@@ -415,7 +452,8 @@ Printing stats for Selena:
  5:    7.97%       98.39%        9.57%
  6:    1.50%       99.89%        1.61%
  7:    0.11%      100.00%        0.11%
-Selena is expected to level up 2.94 stats on average
+Selena is expected to level up 2.95 stats on average
+
 Printing stats for Glen:
  #    chance   cumulative      reverse
  0:    0.71%        0.71%      100.00%
@@ -426,7 +464,8 @@ Printing stats for Glen:
  5:   11.42%       97.11%       14.31%
  6:    2.65%       99.76%        2.89%
  7:    0.24%      100.00%        0.24%
-Glen is expected to level up 3.18 stats on average
+Glen is expected to level up 3.20 stats on average
+
 Printing stats for Hayden:
  #    chance   cumulative      reverse
  0:    1.84%        1.84%      100.00%
@@ -437,7 +476,8 @@ Printing stats for Hayden:
  5:    8.17%       98.18%       10.00%
  6:    1.68%       99.86%        1.82%
  7:    0.14%      100.00%        0.14%
-Hayden is expected to level up 2.89 stats on average
+Hayden is expected to level up 2.90 stats on average
+
 Printing stats for Valter:
  #    chance   cumulative      reverse
  0:    1.47%        1.47%      100.00%
@@ -449,6 +489,7 @@ Printing stats for Valter:
  6:    0.91%       99.95%        0.96%
  7:    0.05%      100.00%        0.05%
 Valter is expected to level up 2.80 stats on average
+
 Printing stats for Fado:
  #    chance   cumulative      reverse
  0:    0.88%        0.88%      100.00%
@@ -459,7 +500,8 @@ Printing stats for Fado:
  5:    9.26%       97.94%       11.31%
  6:    1.90%       99.84%        2.06%
  7:    0.16%      100.00%        0.16%
-Fado is expected to level up 3.04 stats on average
+Fado is expected to level up 3.05 stats on average
+
 Printing stats for Lyon:
  #    chance   cumulative      reverse
  0:    0.26%        0.26%      100.00%
@@ -470,7 +512,8 @@ Printing stats for Lyon:
  5:   19.89%       92.19%       27.70%
  6:    6.86%       99.05%        7.81%
  7:    0.95%      100.00%        0.95%
-Lyon is expected to level up 3.68 stats on average
+Lyon is expected to level up 3.75 stats on average
+
 Printing stats for Knoll’s Phantom:
  #    chance   cumulative      reverse
  0:    6.75%        6.75%      100.00%
@@ -482,6 +525,7 @@ Printing stats for Knoll’s Phantom:
  6:    0.00%      100.00%        0.00%
  7:    0.00%      100.00%        0.00%
 Knoll’s Phantom is expected to level up 1.95 stats on average
+
 Printing stats for Ewan’s Phantom:
  #    chance   cumulative      reverse
  0:    8.64%        8.64%      100.00%
@@ -493,6 +537,7 @@ Printing stats for Ewan’s Phantom:
  6:    0.00%      100.00%        0.00%
  7:    0.00%      100.00%        0.00%
 Ewan’s Phantom is expected to level up 1.70 stats on average
+
 Printing stats for Lyon’s Phantom:
  #    chance   cumulative      reverse
  0:    6.16%        6.16%      100.00%
@@ -504,4 +549,4 @@ Printing stats for Lyon’s Phantom:
  6:    0.00%      100.00%        0.00%
  7:    0.00%      100.00%        0.00%
 Lyon’s Phantom is expected to level up 1.95 stats on average
-Average over all characters: 2.93764468722826
+

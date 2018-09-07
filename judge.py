@@ -51,11 +51,14 @@ def get_info_list(all_stats: dict, name: str):
 
 def ans(all_stats: dict, name: str, print_info=True):
 	_stats = get_info_list(all_stats, name)
+
 	stats = [int(x)/100.0 for x in _stats]
+	for i in range(len(stats)):
+		if stats[i] > 1.0: stats[i] = 1.0
 	results = [F(i, stats) for i in range(len(stats)+1)]
 	accu = list(accumulate(results))
 	reverse = list(accumulate(results[::-1]))[::-1]
-	expected = sum([i*results[i] for i in range(len(stats))])
+	expected = sum([i*results[i] for i in range(len(stats)+1)])
 	if print_info:
 		print("Printing stats for {}:".format(name))
 		print(" #    chance   cumulative      reverse")
@@ -64,7 +67,7 @@ def ans(all_stats: dict, name: str, print_info=True):
 				i, 100*results[i], 
 				100*accu[i],
 				100*reverse[i]))
-		print("{} is expected to level up {:.2f} stats on average".format(name, expected))
+		print("{} is expected to level up {:.2f} stats on average\n".format(name, expected))
 	return results, accu, reverse, expected
 
 
@@ -87,23 +90,33 @@ if __name__ == "__main__":
 	"FE6": "https://serenesforest.net/binding-blade/characters/growth-rates/", 
 	"FE7": "https://serenesforest.net/blazing-sword/characters/growth-rates/", 
 	"FE8": "https://serenesforest.net/the-sacred-stones/characters/growth-rates/"}
-	choice = input("What character is your game in? ({})\n".format(" ".join(choice_dict.keys())))
-	if choice in choice_dict: url = choice_dict[choice]
-	else: print("Invalid name."); exit(0)
+	# choice = input("What character is your game in? ({})\n".format(" ".join(choice_dict.keys())))
+	# if choice in choice_dict: url = choice_dict[choice]
+	# else: print("Invalid name."); exit(0)
 
-	import sys
-	saved_stdout = sys.stdout
-	sys.stdout = open(choice + "_result.txt", "w")
-	all_chars = get_all(url)
-	total = 0
-	for char in all_chars:
-		result, accu, reverse, expected = ans(all_chars, char, True)
-		total += expected
+	for x in choice_dict:
+		choice = x
+		url = choice_dict[choice]
+		avg_dict = {}
+		import sys
+		saved_stdout = sys.stdout
+		sys.stdout = open(choice + "_result.txt", "w")
+		all_chars = get_all(url)
+		total = 0
+		for char in all_chars:
+			result, accu, reverse, expected = ans(all_chars, char, True)
+			total += expected
+			avg_dict[char] = expected
 
-	print("Average over all characters: {}".format(total/len(all_chars)))
-	sys.stdout = saved_stdout
+		sys.stdout = open(choice + "_result_summary.txt", "w")
+		sorted_dict = sorted(avg_dict.items(), key=lambda x:x[1], reverse=True)
+		print("Name     Average")
+		for x in sorted_dict:
+			print("{:13}     {:6.2f}".format(x[0], x[1]))
+		print("Average over all characters: {:.2f}".format(total/len(all_chars)))
+		sys.stdout = saved_stdout
 
-	print("Input the name of the character you'd like to retrieve info for:")
-	ans(all_chars, input())
-	print("Average over all characters: {}".format(total/len(all_chars)))
+	# print("Input the name of the character you'd like to retrieve info for:")
+	# ans(all_chars, input())
+	# print("Average over all characters: {}".format(total/len(all_chars)))
 
